@@ -1,5 +1,5 @@
 import React from 'react';
-import avengers from '../../Data';
+import avengers from '../Data';
 
 function AvengersList() {
   return (
