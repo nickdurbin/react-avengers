@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { Route, Link } from 'react-router-dom';
 import Home from './Components/Home';
 import AvengersList from './Components/AvengersList';
 import AvengerPage from './Components/AvengerPage';
-import avengers from './Data';
 
 function App() {
 
