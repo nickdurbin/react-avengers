@@ -9,6 +9,14 @@ function App() {
 
   return (
     <div className="App">
+      <ul className="navbar">
+        <li>
+          <Link to='/'>Home</Link>
+        </li>
+        <li>
+          <Link to='/avengers'>Avengers</Link>
+        </li>
+      </ul>
       <Route exact path='/' component={Home} />
       <Route exact path='/avengers' component={AvengersList} />
     </div>
